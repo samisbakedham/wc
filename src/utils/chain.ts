@@ -125,6 +125,7 @@ export const chainByNetworkId = (networkId: string): Network => {
     74: supportedChains['0x4a'],
     100: supportedChains['0x64'],
     137: supportedChains['0x89'],
+    534: supportedChains['0x216'],
     42161: supportedChains['0xa4b1'],
     421611: supportedChains['0x66eeb'],
   };
