@@ -4,7 +4,7 @@ import { chainByID, chainByNetworkId } from './chain';
 const isInjected = () => window.ethereum?.chainId;
 
 export const attemptInjectedChainData = () =>
-  isInjected() ? chainByID(window.ethereum.chainId) : chainByID('0x1');
+  isInjected() ? chainByID(window.ethereum.chainId) : chainByID('0x216');
 
 const addNetworkProviders = (chainData: any) => {
   const allProviders: any = {};
@@ -26,8 +26,9 @@ const addNetworkProviders = (chainData: any) => {
           42: `https://kovan.infura.io/v3/${process.env.REACT_APP_RPC_KEY}`,
           69: 'https://kovan.optimism.io',
           100: 'https://dai.poa.network',
-          137: `https://polygon-mainnet.infura.io/v3/${process.env.REACT_APP_RPC_KEY}`,
+          137: `https://polygon-mainnet.infura.io/v3/ ${process.env.REACT_APP_RPC_KEY}`,
           42161: 'https://arb1.arbitrum.io/rpc',
+          534: `https://network.cndlchain.com`,
           421611: 'https://rinkeby.arbitrum.io/rpc',
         },
       },
