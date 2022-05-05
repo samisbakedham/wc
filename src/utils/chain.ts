@@ -98,6 +98,18 @@ export const supportedChains: SupportedChains = {
     rpc_url: 'https://arb1.arbitrum.io/rpc',
     block_explorer: 'https://arbiscan.io',
   },
+  '0x216': {
+    name: 'Candle Mainnet',
+    short_name: 'cndl',
+    chain: 'CNDL',
+    network: 'mainnet',
+    network_id: 534,
+    chain_id: '0x216',
+    providers: ['walletconnect'],
+    // , 'portis', 'fortmatic'
+    rpc_url: `https://network.cndlchain.com`,
+    block_explorer: 'https://etherscan.io',
+  },
   '0x66eeb': {
     name: 'Arbitrum Testnet',
     short_name: 'arb-test',
