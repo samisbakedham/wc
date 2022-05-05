@@ -54,14 +54,14 @@ const App: React.FC<AppProps> = ({ children }) => {
           <AccountButton />
         </Header>
         <Flex align='center' mt='10px'>
-          <Heading as='h1' size='4xl' variant='shadow' content='Wrap Eth' />
+          <Heading as='h1' size='4xl' variant='shadow' content='Wrap Candle' />
         </Flex>
         <Container centerContent maxW='80ch'>
           <Card mt='24px' p='64px' w='100%'>
             <ButtonGroup
               buttons={[
-                `Wrap ${networkName || 'ETH'}`,
-                `Unwrap w${networkName || 'ETH'}`,
+                `Wrap ${networkName || 'CNDL'}`,
+                `Unwrap w${networkName || 'CNDL'}`,
               ]}
               defaultSelected={deposit ? 0 : 1}
               isAttached
@@ -81,7 +81,7 @@ const App: React.FC<AppProps> = ({ children }) => {
                 size='lg'
               >
                 Connect to {deposit ? 'wrap' : 'unwrap'}{' '}
-                {networkName || deposit ? 'ETH' : 'WETH'}
+                {networkName || deposit ? 'CNDL' : 'WCNDL'}
               </Heading>
             )}
           </Card>
