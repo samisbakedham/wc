@@ -1,7 +1,7 @@
 {
-  "short_name": "WrapEth",
-  "name": "WrapEth",
-  "description": "No fees, no frills ETH wrapper",
+  "short_name": "Wrap CNDL",
+  "name": "WrapCNDL",
+  "description": "No fees, no frills CNDL wrapper",
   "iconPath": "logo192.png",
   "providedBy": {"name": "Raid Guild", "url": "https://raidguild.org"},
   "icons": [
