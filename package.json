@@ -62,7 +62,7 @@
     ]
   },
   "resolutions": {
-    "webpack": "4.44.2"
+    "webpack": "4.46.0"
   },
   "devDependencies": {
     "@storybook/addon-actions": "6.4.20",
