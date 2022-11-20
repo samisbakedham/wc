@@ -2535,15 +2535,15 @@
     "@ethersproject/properties" "^5.6.0"
     "@ethersproject/strings" "^5.6.0"
 
-"@fontsource/mirza@4.5.6":
-  version "4.5.6"
-  resolved "https://registry.yarnpkg.com/@fontsource/mirza/-/mirza-4.5.6.tgz#5e918323b7be103fda955ca1401ddc7c177f6394"
-  integrity sha512-Be5cCN1DtD8c66WzkWJ/QnnBRMbmlKKBBwfPE37AMUB0pXe1yV6NBBJ0yUYCs5mvKWbkVjVuyHaWBg2v2hm8gw==
+"@fontsource/mirza@4.5.11":
+  version "4.5.11"
+  resolved "https://registry.yarnpkg.com/@fontsource/mirza/-/mirza-4.5.11.tgz#1ff8ad7045ed8f521551af0864b56fa5ded8cb4f"
+  integrity sha512-bOrtJ/KTOXrvkSWpiFhC9ZCOAsQ3qWSV1Ns3ZkWt3b5JfHnPDhlI5TbORNHbzwVODhlzxi3URgiTU+Ao19LUkw==
 
-"@fontsource/uncial-antiqua@4.5.6":
-  version "4.5.6"
-  resolved "https://registry.yarnpkg.com/@fontsource/uncial-antiqua/-/uncial-antiqua-4.5.6.tgz#ca515b7d1d306d0b549c15005c9d03b725dac21c"
-  integrity sha512-xPLF1Hcy7NGjtKdKz4BaFttAStrLc/1xglw0IunK/G3GTtRubZc3TUWZhdSH0A8Rij+a1zQTfA1EM4AnQqQYww==
+"@fontsource/uncial-antiqua@4.5.10":
+  version "4.5.10"
+  resolved "https://registry.yarnpkg.com/@fontsource/uncial-antiqua/-/uncial-antiqua-4.5.10.tgz#ee86ccd852810b62d451ae9afe929b0d9efc1e38"
+  integrity sha512-FRM+PUZHv7q84vG4iMzy+UdeE2bz6vOaB48edOex/B8S4z/OzGn0FE1fb537kPWYIg1EsodTskksHlYvKtEw4Q==
 
 "@gar/promisify@^1.0.1":
   version "1.1.3"

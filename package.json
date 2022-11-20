@@ -4,8 +4,8 @@
   "private": true,
   "dependencies": {
     "@chakra-ui/icons": "1.1.7",
-    "@fontsource/mirza": "4.5.6",
-    "@fontsource/uncial-antiqua": "4.5.6",
+    "@fontsource/mirza": "4.5.11",
+    "@fontsource/uncial-antiqua": "4.5.10",
     "@gnosis.pm/safe-apps-sdk": "4.3.0",
     "@gnosis.pm/safe-apps-web3modal": "0.6.0",
     "@raidguild/design-system": "0.2.17",
